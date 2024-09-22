@@ -1,18 +1,18 @@
+// factorial algorithm using recursion
 #include <iostream>
 #include <string>
 using namespace std;
 
 typedef long long ll;
-int factorial(int x, int temp = 1) { // factorial = 120
-	if (x > 1) { // false
-		temp *= x; // 60 * 2
-		return factorial (x - 1, temp); // (0, 120)
+int factorial(int x, int temp = 1) { 
+	if (x > 1) { 
+		temp *= x; 
+		return factorial (x - 1, temp); 
 	return temp;
 	}
 }
 int main() {
-	int factorial1 = 3;
+	int factorial1;
+	cin >> factorial1;
 	cout << factorial(factorial1) << endl;
-	
-
 }
