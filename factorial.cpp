@@ -15,4 +15,5 @@ int main() {
 	int factorial1;
 	cin >> factorial1;
 	cout << factorial(factorial1) << endl;
+	return 0;
 }
