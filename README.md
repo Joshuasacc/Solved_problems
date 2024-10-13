@@ -1,2 +1,2 @@
 # cpp_problem_solving
-Problem solving with C++ (Easy to Hard)
+  * Problem solving with C++
