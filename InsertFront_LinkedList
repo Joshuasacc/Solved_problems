@@ -16,6 +16,7 @@ public:
         head = temp;
     }
     void printList() {
+        cout << "\nPrint List:\n_________________" << endl;
         Node *n = head;
         while(n != NULL) {
             cout << n->Value << endl;
@@ -25,11 +26,12 @@ public:
 };
 int main() {
     LinkedList *head = new LinkedList ();
-    head->Insert(1);
-    head->Insert(2);
-    head->Insert(3);
-    head->Insert(4);
-    head->Insert(5);
+    int number;  cin >> number;
+    for(int i = 1; i <= number; i++) {
+        int temp; 
+        cin >> temp;
+        head->Insert(temp);
+    }
     head->printList();
     return 0;
 }
